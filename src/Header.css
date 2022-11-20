@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Michroma&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --lgrad:linear-gradient(45deg,rgb(238, 148, 163) 20%,rgb(246, 100, 125),rgb(244, 46, 79));
+    --font1:michroma;
+    --font2:manrope;
+}
+
+header{
+  text-align: center;
+   background: var(--lgrad);
+   box-shadow: 0px 0px 10px grey;
+   color: aliceblue;
+   font-family:var(--fonth) ;
+}
+
+header h1{
+    padding:1rem;
+    text-shadow: 1px 1px 2px black;
+}
+
+.desk{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: lightgrey;
+}
+
+
+
+.desk input[type='button']{
+    padding: 0.5rem;
+    background: hsla(0, 83%, 73%, 0.553);
+    border-radius: 15px;
+    border: none;
+    color: rgb(35, 35, 198);
+    font-family: var(--font1);
+    font-size: inherit;
+    margin: 1rem;
+    box-shadow: 0px 0px 10px grey;;
+}
+
+.desk input[type='button']:active{
+    background: var(--lgrad);
+}
+
+.search{
+    background: hsla(0, 82%, 65%, 0.801);
+    border-radius: 15px;
+    border:none;
+    width: 40vw;
+    height: 30px;
+    color: rgb(35, 35, 198);
+    font-family: inherit;
+    padding: 1.3rem;
+    box-shadow: 0px 0px 10px grey;
+}
+
+/* .searchbt{
+    background-color: rgb(225, 34, 66);
+    margin-inline: 0.2rem;
+    color: aliceblue;
+    box-shadow: 0px 0px 10px grey;
+    font-size: 2.2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+
+} */
+
+
+footer{
+    background: var(--lgrad);
+    padding: 2rem;
+    text-align: center;
+    font-family: var(--font2);
+    color: aliceblue;
+    font-size: 0.8rem;
+}
+
+.mobile{
+    display: none;
+    padding: 0.2rem;
+    background-color:rgb(198, 196, 196) ;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile .but{
+   color: white;
+   font-size: 2rem;
+   background-color: rgb(241, 48, 80);
+   box-shadow: 0px 0px 10px grey;
+   padding: 0.3rem;
+   border-radius: 5px;
+}
+
+
+ @media screen and (max-width:630px)  {
+    
+     .mobile{
+        display:flex;
+     }
+
+     .desk{
+        display: none;
+     }
+}

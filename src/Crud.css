@@ -1,0 +1,44 @@
+
+
+.crudop{
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: flex-start;
+   background-color: pink;
+   width: 350px;
+   height: auto;
+   padding: 2rem;
+   border-radius: 20px;
+   box-shadow:0px 0px 10px grey;
+   font-family: var(--font2);
+   font-size: 1.5rem;
+   color: rgb(29, 29, 185);
+   text-align: center;
+   flex-shrink: 0;
+}
+
+.crudop input[type="text"],.but input[type="button"],.but input[type="submit"]{
+    height: 30px;
+    border-radius: 15px; 
+    border: none;
+    background-color: rgb(212, 207, 207); 
+     padding: 0.5rem 0.8rem;
+    font-family: inherit;
+    box-shadow:0px 0px 10px grey;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.but{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-inline: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.but input[type="submit"]:active{
+    box-shadow: 0px 0px 2px grey;
+}
+
