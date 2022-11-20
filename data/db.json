@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "strawberry",
+      "cost": "30"
+    },
+    {
+      "id": 2,
+      "name": "mango",
+      "cost": "25"
+    },
+    {
+      "id": 3,
+      "name": "chocolate",
+      "cost": "25"
+    },
+    {
+      "id": 4,
+      "name": "Vanilla",
+      "cost": "20"
+    },
+    {
+      "id": 5,
+      "name": "butterscotch",
+      "cost": "30"
+    },
+    {
+      "id": 6,
+      "name": "Blueberry",
+      "cost": "45"
+    },
+    {
+      "id": 7,
+      "name": "caramel nuts",
+      "cost": "45"
+    },
+    {
+      "id": 8,
+      "name": "pineapple",
+      "cost": "35"
+    },
+    {
+      "id": 9,
+      "name": "red velvet",
+      "cost": "50"
+    }
+  ]
+}
